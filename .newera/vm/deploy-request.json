@@ -1,0 +1,7 @@
+{
+  "subdomain": "9router-docker",
+  "mode": "permanent",
+  "build_output": "out",
+  "job": "vm-muxvnz9y-uspve4bq",
+  "at": "2026-10-07T09:33:53.964Z"
+}
