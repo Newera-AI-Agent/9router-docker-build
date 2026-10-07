@@ -28,3 +28,8 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-07T09:36:57.592Z | VM 1/3] CONTRACT REQ-020 -> complete: No vulnerable base images - node:22-alpine used as specified in Dockerfile
 - [2026-10-07T09:37:13.842Z | VM 1/3] PLAN updated: 7 steps
 - [2026-10-07T09:40:19.476Z | VM 1/3] RELAY checkpoint at step 65 — handoff committed, VM 2 continues.
+- [2026-10-07T09:40:34.940Z | VM 2/3] boot: VM 2/3 online (job vm-muxx2s08-kcsappr6, 60 min budget, relay continuation)
+- [2026-10-07T09:40:34.940Z | VM 2/3] self-check PASS: shell: VERIFIED (the harness executed bash on this VM at boot); node: v24.21.0; npm: 11.19.0; python3: Python 3.12.3; git: repo checked out @ 2ff084a; filesystem: WRITABLE (the harness wrote + read back a probe file); skills: 22 knowledge docs in .newera/skills/ (list_skills / read_skill); project: 
+- [2026-10-07T10:13:31.639Z | VM 2/3] CONTRACT REQ-005 -> complete: Dockerfile contains ARG NODE_IMAGE=node:22-alpine as verified during examination
+- [2026-10-07T10:13:39.450Z | VM 2/3] CONTRACT REQ-013 -> complete: Images tagged as 9router:latest and 9router:0.5.95 (from package.json version) for both linux/amd64 and linux/arm64
+- [2026-10-07T10:19:41.093Z | VM 2/3] RELAY checkpoint at step 50 — handoff committed, VM 3 continues.

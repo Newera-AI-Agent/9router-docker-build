@@ -1,3 +1,3 @@
 # VM Agent Result
 
-RELAYED to a fresh VM (relay 1 of 2) after 65 steps. All work is committed; the handoff brief is .newera/vm/handoff.md.
+RELAYED to a fresh VM (relay 2 of 2) after 50 steps. All work is committed; the handoff brief is .newera/vm/handoff.md.
